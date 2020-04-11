@@ -7,26 +7,126 @@
 
 <body class="page">
     <h1>API with Flask and Docker</h1>
-    <a href="http://www.marceloguzman.com" target="_blank">by Marcelo Guzman</a><br/>
+    <br /><br /><br />
+    <table class="tg">
+        <tr>
+            <th class="tg-7btt">verb</th>
+            <th class="tg-7btt">endpoint</th>
+            <th class="tg-7btt">description</th>
+        </tr>
+        <tr>
+            <td class="tg-c3ow"><span class="pill">get</span></td>
+            <td class="tg-0pky">/hello</td>
+            <td class="tg-0pky">just to check if the API is working fine</td>
+        </tr>
+        <tr>
+            <td class="tg-c3ow"><span class="pill">post</span></td>
+            <td class="tg-0pky">/hello</td>
+            <td class="tg-0pky">just to check if the API is working fine</td>
+        </tr>
+        <tr>
+            <td class="tg-c3ow"><span class="pill">get</span></td>
+            <td class="tg-0pky">/register</td>
+            <td class="tg-0pky">register a new user in the database</td>
+        </tr>
+        <tr>
+            <td class="tg-c3ow"><span class="pill">get</span></td>
+            <td class="tg-0pky">/detect</td>
+            <td class="tg-0pky"></td>
+        </tr>
+        <tr>
+            <td class="tg-c3ow"><span class="pill">post</span></td>
+            <td class="tg-0pky">/refill</td>
+            <td class="tg-0pky"></td>
+        </tr>
+        <tr>
+            <td class="tg-c3ow"><span class="pill">get</span></td>
+            <td class="tg-0pky">/tokens</td>
+            <td class="tg-0pky"></td>
+        </tr>
+    </table>
+    <br /><br /><br />
+    <a href="http://www.marceloguzman.com" target="_blank">by Marcelo Guzman</a><br />
     <a href="https://github.com/marceloguzman/restful-api-example" target="_blank">Github Repo</a>
 </body>
-
-
-
 <style>
-	.page {
-	    text-align: center;
-	    border: 1px solid #b2b2b2;
-	    border-radius: 9px;
-	}
+.page {
+    text-align: center;
+    border: 1px solid #b2b2b2;
+    border-radius: 9px;
+}
 
-	h1 {
-	    margin: 0 0 10px 0;
-	}
+h1 {
+    margin: 0 0 10px 0;
+}
 
-	html, body {
-	    padding: 30px;
-	}
+html,
+body {
+    padding: 30px;
+}
+
+
+.pill {
+    background-color: grey;
+    padding: 4px 18px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #ccc;
+    width: 100%;
+    max-width: 800px;
+	margin: auto;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #fff;
+}
+
+.tg .tg-c3ow {
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #ccc;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.tg .tg-7btt {
+    font-weight: bold;
+    border-color: inherit;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-0pky {
+    border-color: inherit;
+    text-align: left;
+    vertical-align: top
+}
 </style>
 
 </html>
