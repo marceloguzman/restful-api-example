@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  web:
+    build: './web'
+    container_name: flaskApi
+    volumes:
+      - ./src:/usr/src/app
+    ports:
+      - "5000:5000"
+    links:
+      - db
+
+  db:
+    image: mongo
+    container_name: mongodbApi
+    volumes:
+      - ./db_data:/data/db/
+    #ports:
+    #  - '27017-27019:27017-27019'
+    
